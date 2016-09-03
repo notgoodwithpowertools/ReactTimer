@@ -77,3 +77,9 @@ Install SASS support
 ```
 npm install sass-loader node-sass
 ```
+
+# Testing
+Install tools
+```
+npm install --save-dev karma karma-firefox-launcher karma-mocha karma-mocha-reporter karma-sourcemap-loader karma-webpack mocha expect
+```
