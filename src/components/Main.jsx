@@ -25,7 +25,7 @@ var Main = (props) => {
 
       <div className="row">
         <div className="column medium-6 large-4 small-centered">
-          <h2>React Timer Main Component</h2>
+          {/*<h2>React Timer Main Component</h2> */}
           {props.children}
         </div>
       </div>

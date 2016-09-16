@@ -2,18 +2,13 @@
 @import "../components/nav";
 @import "../components/clock";
 @import "../components/controls";
+@import "./page-title";
 
 $space-large: 3.5rem;
 $title-color: blue;;
 
 h2 {
   color: $title-color;
-}
-
-.page-title {
-  color: $title-color;
-  margin-top: $space-large;
-  margin-bottom: 2.5rem;
 }
 
 input[type=search] {

@@ -35,11 +35,12 @@ describe('Controls', () => {
     /*
     it('should be called with paused after pause button clicked', () => {
       var spy = expect.createSpy();
-      var controls = TestUtils.renderIntoDocument(<Controls countdownStatus="started" />);
+      var controls = TestUtils.renderIntoDocument(<Controls countdownStatus="started" onStatusChange={spy}/>);
 
       var pauseButton = controls.refs.pauseButton;
       TestUtils.Simulate.click(pauseButton);
-      expect(spy).toHaveBeenCalledWith('paused');
+      //expect(spy).toHaveBeenCalledWith('paused');
+      expect(controls.state.countdownStatus).toBe('paused');
 
     });
     */
